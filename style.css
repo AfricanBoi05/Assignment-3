@@ -1,0 +1,88 @@
+body {
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 50px 50px 0 50px;
+    font-family: arial, sans-serif;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border-radius: 15px;
+    background-color: #1f1f1f;
+    padding: 30px;
+    text-align: center;
+}
+
+.image {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50px;
+    margin-left: 115px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.topic {
+    font-size: small;
+}
+
+.topic > h1 {
+    font-size: 30px;
+}
+
+.topic h2 {
+    color: #c4f82a;
+}
+
+.bod {
+    display: flex;
+    flex-direction: column;
+}
+
+.bod > h3 {
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.same {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    margin: 5px;
+    border-radius: 10px;
+    height: 50px;
+    font-size: small;
+    font-weight: lighter;
+    
+}
+
+.github {
+    background-color: #c4f82a;
+}
+
+.button {
+    background-color: #c4f82a;
+    color: #141414;
+    border: 0;
+    font-size: small;
+}
+
+@media (max-width: 400px) {
+    body {
+        width: 100%;
+    }
+    .main {
+        width: 300px;
+        margin: 100px 0;
+        margin-right: 50px;
+    }
+}
